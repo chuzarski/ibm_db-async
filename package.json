@@ -1,0 +1,15 @@
+{
+  "name": "ibm-db2-async",
+  "version": "1.0.0",
+  "description": "Prototype to connect to IBM DB2 using idbm_db library",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "boxednode": "boxednode -n \"16.18.0\" -s main.js -t bn_main.exe --make-args \"vs2022\""
+  },
+  "author": "",
+  "dependencies": {
+    "ibm_db": "3.1.0",
+    "boxednode": "1.12.0"
+  }
+}
